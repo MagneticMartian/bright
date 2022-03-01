@@ -1,5 +1,5 @@
 # bright
-I did not like the way that xrandr causes my screen to flicker when I decrease the brightness. So, I created bright which edits the backlight system file "brightness" to change the brightness. NO MORE FLICKER!!!!1!11!!!
+I did not like the way that xrandr causes my screen to flicker when I decrease the brightness. So, I created bright which edits the backlight system file "brightness" to change the brightness. NO MORE FLICKER!!!!1!11!!! This currently only works for intel cpu's
 ## Privilege level
 Due to, the software editing a system file, bright must be ran with elevated privileges.
 ## Compiling
@@ -28,3 +28,4 @@ sudo bright --set <desired_percentage>
 ## TODO
 1) write the help statement
 2) create a makefile
+3) Add support for other cpu's and gpu's 
