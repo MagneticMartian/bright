@@ -1,5 +1,7 @@
 # bright
-I did not like the way that xrandr causes my screen to flicker when I decrease the brightness. So, I created bright which edits the backlight system file "brightness" to change the brightness. NO MORE FLICKER!!!!1!11!!! This currently only works for intel cpu's
+I did not like the way that xrandr causes my screen to flicker when I decrease the brightness. So, I created bright which edits the backlight system file "brightness" to change the brightness. NO MORE FLICKER!!!!1!11!!! 
+
+This currently only works for intel cpu's.
 ## Privilege level
 Due to, the software editing a system file, bright must be ran with elevated privileges.
 ## Compiling
