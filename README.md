@@ -10,14 +10,14 @@ gcc -o bright bright.c
 sudo ln -s /path/to/bright /usr/bin/
 ```
 ## Examples
-### increase brightness by 5%
+### increase brightness by 10%
 ```
 sudo bright --increment
 -or-
 sudo bright -i
 ```
 
-### decrease brightness by 5%
+### decrease brightness by 10%
 ```
 sudo bright --decrement
 -or-
