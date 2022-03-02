@@ -26,6 +26,8 @@ sudo bright -d
 ### change brightness by specific amount
 ```
 sudo bright --set <desired_percentage>
+-or-
+sudo bright -s <desired_percentage>
 ```
 ## TODO
 1) write the help statement
