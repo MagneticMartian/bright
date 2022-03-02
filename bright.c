@@ -33,7 +33,7 @@ main (int argc, char* argv[])
         };
         int option_index = 0;
 
-        c_opts = getopt_long(argc, argv, "idsh:",
+        c_opts = getopt_long(argc, argv, "ids:h:",
                              long_options, &option_index);
 
         if (c_opts == -1) break;
