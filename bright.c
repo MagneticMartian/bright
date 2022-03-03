@@ -10,7 +10,6 @@ int
 main (int argc, char* argv[])
 {
     int c_opts;
-    char* BACKLIGHT_FILE = "/sys/class/backlight/intel_backlight/brightness";
     FILE *fd = fopen(BACKLIGHT_FILE,"r+");
     if (fd == NULL){
         fprintf(stderr, "Unable to open file\n");
