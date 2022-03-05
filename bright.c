@@ -1,10 +1,17 @@
 #include "bright.h" 
 
-void 
+void
 usage()
 {
+    printf("Usage:\n");
+    printf("       bright -[i][d][s <percentage>][h]\n");
+    printf("-i, --increment             Increase brightness by 10%\n");
+    printf("-d, --decrement             Decrease brightness by 10%\n");
+    printf("-s, --set <percentage       Set brightness to desired percentage\n");
+    printf("-h, --help                  print this message\n");
     exit(1);
 }
+
 
 int
 main (int argc, char* argv[])
@@ -32,7 +39,7 @@ main (int argc, char* argv[])
         };
         int option_index = 0;
 
-        c_opts = getopt_long(argc, argv, "ids:h:",
+        c_opts = getopt_long(argc, argv, "idhs:",
                              long_options, &option_index);
 
         if (c_opts == -1) break;
