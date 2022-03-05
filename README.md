@@ -30,6 +30,5 @@ sudo bright --set <desired_percentage>
 sudo bright -s <desired_percentage>
 ```
 ## TODO
-1) write the help statement
-2) create a makefile
-3) Add support for other cpu's and gpu's 
+1) create a makefile
+2) Add support for other cpu's and gpu's 
