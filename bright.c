@@ -7,7 +7,7 @@ usage()
     printf("       bright -[i][d][s <percentage>][h]\n");
     printf("-i, --increment             Increase brightness by 10%\n");
     printf("-d, --decrement             Decrease brightness by 10%\n");
-    printf("-s, --set <percentage       Set brightness to desired percentage\n");
+    printf("-s, --set <percentage>      Set brightness to desired percentage\n");
     printf("-h, --help                  print this message\n");
     exit(1);
 }
